@@ -43,7 +43,7 @@ jobs:
         uses: Azure/functions-action@v1
         id: fa
         with:
-          app-name: 'fntestfn'
+          app-name: 'example-linux-function-app0100'
           slot-name: 'Production'
           package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
           #publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BCF4B946666F4AB583E648A392806780 }}
